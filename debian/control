@@ -1,4 +1,4 @@
-Source: cmake-houston-test
+Source: com.github.dbhowell.houston-test
 Section: x11
 Priority: extra
 Maintainer: David Howell <davidh@dynamicmethods.com.au>
@@ -8,7 +8,7 @@ Build-Depends: cmake (>= 2.8),
                valac (>= 0.16)
 Standards-Version: 3.9.3
 
-Package: cmake-houston-test
+Package: com.github.dbhowell.houston-test
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Hey young world
