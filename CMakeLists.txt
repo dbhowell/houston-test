@@ -38,9 +38,8 @@
 
     # files we want to compile
     include(ValaPrecompile)
-    vala_precompile(VALA_C ${EXEC_NAME}
+    vala_precompile(VALA_C
         src/houston-test.vala
-
     # tell what libraries to use when compiling
     PACKAGES
         gtk+-3.0
