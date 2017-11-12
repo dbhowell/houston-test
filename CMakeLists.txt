@@ -30,11 +30,11 @@
     link_directories(${DEPS_LIBRARY_DIRS})
 
     # make sure we have vala
-    find_package(Vala REQUIRED)
+    # find_package(Vala REQUIRED)
     # make sure we use vala
-    include(ValaVersion)
+    # include(ValaVersion)
     # make sure it's the desired version of vala
-    ensure_vala_version("0.16" MINIMUM)
+    # ensure_vala_version("0.16" MINIMUM)
 
     # files we want to compile
     include(ValaPrecompile)
